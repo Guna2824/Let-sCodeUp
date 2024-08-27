@@ -1,0 +1,39 @@
+#btn1:hover{
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+}
+#btn1, #btn2 {
+    font-weight: 500;
+}
+#btn2{
+    background: inherit;
+    color: white;
+}
+#btn2:hover{
+    background: white;
+    color: black;
+}
+ul li a:hover {
+    background-color: #000000d7;
+}
+
+card-body, a {
+    text-decoration: none;
+    color: black;
+}
+card-body, a:hover{
+    background: gainsboro;
+}
+.under {
+    margin-top: 10px;
+    width: 00px;
+    height: 5px;
+    transition: width 1s;
+    background-image: linear-gradient(to right, purple, red, yellow);
+}
+#link-digitalMarketing:hover {
+    .under {
+        width: 100%;
+    }
+}
